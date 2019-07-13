@@ -1,6 +1,9 @@
 <template>
     <div>
-        <h2>Super Cool Editor Here</h2>
+        <h1 class="text-lg">GO Challenge - Getting Started</h1>
+        <div>
+            
+        </div>
     </div>
 </template>
 

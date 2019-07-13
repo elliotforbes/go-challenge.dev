@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+  <nav class="flex items-center justify-between flex-wrap bg-gray-700 p-6">
     <div class="flex items-center flex-shrink-0 text-white mr-6">
       <svg
         class="fill-current h-8 w-8 mr-2"
@@ -28,16 +28,8 @@
       <div class="text-sm lg:flex-grow">
         <a
           href="#responsive-header"
-          class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-        >Docs</a>
-        <a
-          href="#responsive-header"
-          class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-        >Examples</a>
-        <a
-          href="#responsive-header"
-          class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
-        >Blog</a>
+          class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4"
+        >All Challenges</a>
       </div>
       <div>
         <a
@@ -55,3 +47,8 @@ export default {
 }
 </script>
 
+<style>
+nav {
+    background-color: #33364C;
+}
+</style>

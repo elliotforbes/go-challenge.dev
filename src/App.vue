@@ -1,21 +1,32 @@
 <template>
   <div id="app">
-    <Navbar/>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Navbar />
+    <div class="flex">
+        <div class="flex-1 text-gray-700 text-center bg-gray-400 px-6 py-6 m-2">
+          <Editor />
+        </div>
+        <div class="flex-1 text-gray-700 text-center bg-gray-400 px-6 py-6 m-2">
+          <Problem />
+        </div>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Navbar from './components/Navbar.vue'
+import Navbar from "./components/Navbar.vue";
+import Editor from "./components/Editor.vue";
+import Login from "./components/Login.vue";
+import Problem from "./components/Problem.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    HelloWorld,
-    Navbar
+    Navbar,
+    Editor,
+    Login,
+    Problem
   }
-}
+};
 </script>
 
 <style>

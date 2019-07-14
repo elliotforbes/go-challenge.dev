@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="flex flex-justify">
     <div class="flex-1 text-gray-700 px-6 py-6 m-2">
       <Editor />
     </div>

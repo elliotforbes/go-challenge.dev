@@ -32,6 +32,10 @@
           class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4"
         >All Challenges</router-link>
 
+        <router-link
+          to="/snippets"
+          class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4"
+        >Snippets</router-link>
       </div>
       <div>
         <router-link

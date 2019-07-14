@@ -1,11 +1,12 @@
 <template>
   <div>
     <div class="w-full p-8">
-      <h2 class="text-lg"></h2>
+      <h2 class="text-lg">Go-Challenge.dev</h2>
+      <p></p>
     </div>
 
     <div class="challenges min-h-screen">
-      <div class="flex flex-wrap">
+      <div class="flex flex-wrap justify-center">
         <ChallengeCard />
         <ChallengeCard />
         <ChallengeCard />

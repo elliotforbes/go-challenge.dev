@@ -1,5 +1,5 @@
 <template>
-  <div class="w-2/5 m-5 rounded overflow-hidden shadow-lg bg-white">
+  <div class="w-3/12 m-4 rounded overflow-hidden shadow-lg bg-white">
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
       <p

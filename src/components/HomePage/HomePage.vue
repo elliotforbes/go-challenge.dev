@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="w-full p-8">
-      <h2 class="text-lg">Go-Challenge.dev</h2>
+      <h2 class="text-lg">Go Challenges to Test Your Proficiency!</h2>
       <p></p>
     </div>
 
